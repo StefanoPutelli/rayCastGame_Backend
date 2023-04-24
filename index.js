@@ -4,7 +4,7 @@ const uuidv4 = require('uuid').v4;
 
 const server = http.createServer();
 const wsServer = new WebSocketServer({ server });
-const port = 8000;
+const port = 4567;
 server.listen(port, () => {
   console.log(`WebSocket server is running on port ${port}`);
 });
